@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+}
+
+nav {
+  background: rgba(0, 255, 10, 0.25);
+  grid-column: span 1;
+}
+
+article header {
+  grid-column: span 1;
+  background: rgba(10, 0, 255, 0.25);
+}
+
+article section {
+  grid-column: span 2;
+  background: rgba(255, 0, 10, 0.25);
+}
